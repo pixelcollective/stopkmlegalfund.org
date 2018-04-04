@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Dimension by HTML5 UP"
+    title: "Stop KM Legal Fund",
+    author: "Kelly Mears",
+    description: "The arrests are mounting in the fight against Kinder Morgan. These water protectors need our support."
   },
-  pathPrefix: '/',
+  pathPrefix: 'http://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,

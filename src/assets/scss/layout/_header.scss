@@ -66,7 +66,7 @@
 			border-color: _palette(border);
 			border-top-width: _size(border-width);
 			border-bottom-width: _size(border-width);
-			max-width: 100%;
+			max-width: 900px;
 
 			.inner {
 				@include vendor('transition', (
@@ -101,6 +101,15 @@
 				border: solid _size(border-width) _palette(border);
 				border-radius: _size(border-radius);
 
+				.highlighted {
+					background:rgba(255,255,255,.4);
+					background: #396afc;  /* fallback for old browsers */
+					background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+					background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+					
+
+				}
+
 				li {
 					padding-left: 0;
 					border-left: solid _size(border-width) _palette(border);
@@ -120,12 +129,26 @@
 						font-size: 0.8rem;
 						border-bottom: 0;
 
+
+
 						&:hover {
 							background-color: _palette(border-bg);
 						}
 
 						&:active {
 							background-color: _palette(border-bg-alt);
+						}
+					}
+
+					.donate-link {
+						color: rgba(255,255,255,.8);
+						font-weight:bold;
+						font-size:1em;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+						
+						&:hover {
+							background-color: rgba(0,0,0,.1);
 						}
 					}
 				}
