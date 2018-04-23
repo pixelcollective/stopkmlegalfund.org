@@ -14,8 +14,7 @@ class Main extends React.Component {
       <div id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="donate" className={`${this.props.article === 'donate' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contribute to the fund</h2>
-          <p>// donation form</p>
+          <div id='can-fundraising-area-stop-km-legal-defense-fund' className="fundraiser" style={{marginRight:'auto',marginBottom:'20px'}}></div>
           {close}
         </article>
 
@@ -29,9 +28,16 @@ class Main extends React.Component {
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
-          <p>// contact info</p>
-          {close}
+          <h2 className="major">Board</h2>
+<h3>Harjap Grewal</h3>
+<h3>Irina Ceric</h3>
+<h3>June McCue</h3>
+<h3>Peter McCartney</h3>
+<h3>Rita Wong</h3>
+<h4>* Professional accountant specializing in non-profit organizations, Mairanne Boz, has agreed to set the Fund's financial systems up to ensure transparency and diligent independent monitoring of all monies associated with the Fund</h4>
+    <h4><a href="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/files/Draft_Legal_Defense_Board_Policy_Agreement.pdf">DRAFT STOP KINDER MORGAN LEGAL DEFENCE FUND 
+    BOARD POLICY AGREEMENT [PDF]</a></h4>      
+        {close}
         </article>
 
       </div>

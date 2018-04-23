@@ -18,6 +18,34 @@
 		z-index: 3;
 		display: none;
 
+		iframe,#can_embed_iframe {
+			height:100%!important;
+		}
+		.fundraiser {
+			width:560px;
+			height:1494px;
+			margin-left:auto;
+				margin-right:auto;
+		}
+		@include breakpoint(small) {
+			.fundraiser {
+				width:390px;
+				height:2200px;
+			}
+		}
+		@include breakpoint(xsmall) {
+			.fundraiser {
+				width:280px;
+				height:2509px;
+			}
+		}
+		@include breakpoint(xxsmall) {
+			.fundraiser {
+				width:280px;
+				height:2868px;
+			}
+		}
+		
 		article {
 			@include vendor('transform', 'translateY(0.25rem)');
 			@include vendor('transition', (
