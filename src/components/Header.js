@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "gatsby-link";
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -14,7 +15,7 @@ const Header = (props) => (
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li className="highlighted"><a href="javascript:;" onClick={() => {props.onOpenArticle('donate')}} className="donate-link">Donate</a></li>
+                <li className="highlighted"><Link to="/donate/" className="donate-link">Donate</Link></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Board</a></li>
             </ul>
         </nav>

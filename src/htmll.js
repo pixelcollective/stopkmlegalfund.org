@@ -36,7 +36,7 @@ module.exports = class HTML extends React.Component {
 <meta property="og:image"              content="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/static/feather.d671d4bf.jpg" />
           {this.props.headComponents}
           {css}
-          <script src='https://actionnetwork.org/widgets/v3/fundraising/stop-km-legal-defense-fund?format=js&source=widget' />
+          <script src='https://actionnetwork.org/widgets/v3/fundraising/stop-km-legal-defense-fund?format=js&source=widget&style=full' />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

@@ -34,6 +34,7 @@ class Main extends React.Component {
 <h3>June McCue</h3>
 <h3>Peter McCartney</h3>
 <h3>Rita Wong</h3>
+<h3>Stephen Collis</h3>
 <h4>* Professional accountant specializing in non-profit organizations, Mairanne Boz, has agreed to set the Fund's financial systems up to ensure transparency and diligent independent monitoring of all monies associated with the Fund</h4>
     <h4><a href="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/files/Draft_Legal_Defense_Board_Policy_Agreement.pdf">DRAFT STOP KINDER MORGAN LEGAL DEFENCE FUND 
     BOARD POLICY AGREEMENT [PDF]</a></h4>      
