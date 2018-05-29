@@ -18,7 +18,8 @@
 		small:		'(max-width: 736px)',
 		xsmall:		'(max-width: 480px)',
 		xxsmall:	'(max-width: 360px)',
-		xxxsmall: '(max-width: 350px)'
+		xxxsmall: '(max-width: 350px)',
+		anbreak: '(min-width:849px)'
 	));
 
 	@include skel-layout((
@@ -42,12 +43,11 @@
 	@import 'components/button';
 
 // Layout.
-
+@import 'layout/actionnetwork';
 	@import 'layout/bg';
 	@import 'layout/wrapper';
 	@import 'layout/header';
 	@import 'layout/main';
 	@import 'layout/donate';
 	@import 'layout/privacy';
-	@import 'layout/actionnetwork';
 	@import 'layout/footer';

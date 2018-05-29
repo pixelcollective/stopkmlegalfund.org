@@ -39,6 +39,14 @@
   .donate_amount {
     background-color:rgba(0,0,0,.1)!important;
     border:1px solid rgba(255,255,255,.8)!important;
+    @include vendor('display', 'flex');
+    margin-right:0%!important;
+  }
+  @include breakpoint(anbreak) {
+    .donate_amount {
+          @include vendor('display', 'flex');
+          margin-right:2%!important;
+   }
   }
   .floatlabel-wrapper {
     background:transparent!important;
@@ -137,11 +145,12 @@
 
 @media screen and (max-width: 350px) {
   .can_embed-html,
-  .can_embed-html body {
+  .can_fundraising_widget {
     min-width:0px!important;
   }
-  .can_embed-html .can_fundraising_widget #can_embed_form.can_float #can_main_col .donate_amount, 
-  .can_embed-html .can_fundraising_widget #can_embed_form.can_float #can_main_col .tip_label {
+  #wrapper #can_fundraising_widget  .donate_amount,
+  #wrapper #can_fundraising_widget  .tip_label,
+  #wrapper #can_embed_form .check_radio_field.donate_amount_wrap label {
     margin-right:0px!important;
   }
 }
