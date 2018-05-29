@@ -62,7 +62,7 @@
 
 		.body.is-loading & {
 			&:before {
-				background-color:	_palette(bg-alt);
+				background-color:	rgba(0,0,0,.4);
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Stop KM Legal Fund",
-    author: "Kelly Mears",
-    description: "The arrests are mounting in the fight against Kinder Morgan. These water protectors need our support."
+    author: "Stop KM Legal Fund",
+    description: "Support the legal defence costs stemming from protest, civil disobedience, and direct action activities in opposition to Kinder Morgan."
   },
   pathPrefix: 'http://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/',
   plugins: [

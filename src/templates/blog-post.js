@@ -6,11 +6,17 @@ import get from 'lodash/get'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet>
+          <title>{get(this, 'props.data.site.siteMetadata.title')}</title>
+          <meta property="og:url"                content="https://stopkmlegalfund.org" />
+          <meta property="og:type"               content="article" />
+          <meta property="og:title"              content="Stop KM Legal Defence Fund" />
+          <meta property="og:description"        content="Supporting legal defence costs stemming from protest, civil disobedience, and direct action activities in opposition to Kinder Morgan" />
+          <meta property="og:image"              content="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/static/feather.d671d4bf.jpg" />
+        </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <p>
           {post.frontmatter.date}
