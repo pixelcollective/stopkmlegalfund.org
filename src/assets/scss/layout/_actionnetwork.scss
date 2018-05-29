@@ -115,9 +115,6 @@
     .action_status_tracker {
       border-bottom:none!important;
       margin-bottom:0em!important;
-      img {
-
-      }
       .action_status_running_total {
         font-weight:700!important;
       }
@@ -137,5 +134,16 @@
     }
   }
 }  
+
+@media screen and (max-width: 350px) {
+  .can_embed-html,
+  .can_embed-html body {
+    min-width:0px!important;
+  }
+  .can_embed-html .can_fundraising_widget #can_embed_form.can_float #can_main_col .donate_amount, 
+  .can_embed-html .can_fundraising_widget #can_embed_form.can_float #can_main_col .tip_label {
+    margin-right:0px!important;
+  }
+}
 
   

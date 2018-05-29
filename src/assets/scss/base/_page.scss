@@ -6,6 +6,11 @@
 
 /* Basic */
 
+html, body {
+	width:100%;
+	max-width:100%;
+}
+
 	// MSIE: Required for IEMobile.
 		@-ms-viewport {
 			width: device-width;
@@ -15,6 +20,7 @@
 		@include breakpoint(xsmall) {
 			html, body {
 				min-width: 320px;
+				max-width:100%;
 			}
 		}
 
