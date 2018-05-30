@@ -93,7 +93,7 @@ Apply.propTypes = {
 export default Apply
 
 export const pageQuery = graphql`
-  query applicationQuery {
+  query applyQuery {
     site {
       siteMetadata {
         title

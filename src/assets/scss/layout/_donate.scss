@@ -1,10 +1,6 @@
 .donate {
-  @include vendor('display', 'flex');
-		@include vendor('flex-direction', 'column');
 		@include vendor('transition', (
-			'transform #{_duration(article)} ease-in-out',
-			'filter #{_duration(article)} ease-in-out',
-			'opacity #{_duration(article)} ease-in-out',
+ 			'opacity #{_duration(article)} ease-in-out',
 		));
   > * {
     @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
@@ -12,21 +8,17 @@
   }
   div {
     @include vendor('transition', (
-					'max-height #{_duration(intro)} ease',
-					'padding #{_duration(intro)} ease',
-					'opacity #{_duration(article)} ease-in-out'
+ 					'opacity #{_duration(article)} ease-in-out'
 				));
-				@include vendor('transition-delay', '2s');
+				@include vendor('transition-delay', '1s');
   } 
   .hide {
     > * {
       opacity: 0;
-      @include vendor('filter', 'blur(0.125rem)');
       .policy {
         @include vendor('transition', (
           'opacity 2s ease-in-out',
-          'transform 2s ease-in-out'
-        ));
+         ));
         max-height: 0;
         padding-top: 0;
         padding-bottom: 0;

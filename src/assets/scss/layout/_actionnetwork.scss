@@ -1,4 +1,8 @@
 .can_fundraising_widget {
+  max-width:100%!important;
+  * {
+    max-width:100%!important;
+  }
   margin-top:3em!important;
   background:transparent!important;
   .can_embed #can_embed_form,
@@ -33,21 +37,16 @@
   #donation_welcome {
     border:none!important;
     margin-top:0em!important;
-    padding:0em .5em 1em 1em!important;
     margin-bottom:1.5em!important;
   }
   .donate_amount {
     background-color:rgba(0,0,0,.1)!important;
     border:1px solid rgba(255,255,255,.8)!important;
-    @include vendor('display', 'flex');
-    margin-right:0%!important;
+    @include breakpoint(xsmall) {
+      margin-right:none!important;
+    }
   }
-  @include breakpoint(anbreak) {
-    .donate_amount {
-          @include vendor('display', 'flex');
-          margin-right:2%!important;
-   }
-  }
+
   .floatlabel-wrapper {
     background:transparent!important;
     ::-webkit-input-placeholder,
@@ -63,13 +62,16 @@
       display:none!important;
     }
   }
+  .clearfix li {
+    @include breakpoint(xxxsmall) {
+      padding-left:0em!important;
+    }
+  }
   .international_link-wrap {
     margin-top:-18px!important;
   }
   .international_link {
     line-height: 1.4em!important;
-    padding-left: .4em!important;
-    padding-right: .4em!important;
     border-bottom: none;
     padding-top: .2em;
     padding-bottom: .2em;
@@ -104,9 +106,18 @@
   #donate_form_button {
     margin-top:2em!important;
   }
+   @include breakpoint(small) {
+    .donate_amount_wrap label {
+      margin-right:0em!important;
+    }
+  }
   .donate_amount {
     font-weight:500!important;
-    letter-spacing:.1em;
+    font-size:1em!important;
+    border:1px solid white!important;
+      color:rgba(255,255,255,.9)!important;
+      font-size:1em!important;
+      font-weight:500!important;
     .donate_amount_custom {
       border:none!important;
       color:rgba(255,255,255,.9)!important;
@@ -143,15 +154,12 @@
   }
 }  
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
-         only screen and (-o-min-device-pixel-ratio: 13/10),
-         only screen and (min-resolution: 120dpi) {
-           #wrapper .can_embed .donate_amount {
-             margin-right:0%!important;
-             width:96%!important;
-           }
-          }
 .can_embed #can_embed_form_inner {
+  #action_welcome_message_inner {
+    * {
+      color:black!important;
+    }
+  }
         h2 {
           display:none!important;
         }
