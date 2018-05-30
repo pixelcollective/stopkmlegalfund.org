@@ -1,7 +1,9 @@
 .donate {
 		@include vendor('transition', (
  			'opacity #{_duration(article)} ease-in-out',
-		));
+    ));
+    @include vendor('display', 'flex');
+		@include vendor('flex-direction', 'column');
   > * {
     @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
     opacity:1;
@@ -26,4 +28,28 @@
       }
     }
   }
+}
+#wrapper:before {
+  content: '';
+  display: none;
+}
+.received {
+  position:initial;
+  @include vendor('transition', (
+ 			'opacity #{_duration(article)} ease-in-out',
+    ));
+    @include vendor('flex-direction', 'column');
+    padding:0em;
+    margin:0em;
+  > * {
+    @include vendor('transition', 'opacity #{_duration(article)} ease-in-out');
+    opacity:1;
+  }
+  div {
+    
+    @include vendor('transition', (
+ 					'opacity #{_duration(article)} ease-in-out'
+				));
+				@include vendor('transition-delay', '1s');
+  } 
 }
