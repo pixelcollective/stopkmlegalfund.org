@@ -6,62 +6,6 @@
 
 /* Form */
 
-	form {
-		$gutter: _size(element-margin) * 0.75;
-
-		margin: 0 0 (_size(element-margin) * 1.25) 0;
-
-		.field {
-			margin: 0 0 ($gutter * 1) 0;
-
-			&.half {
-				width: 50%;
-				float: left;
-				padding: 0 0 0 ($gutter * 1 * 0.5);
-
-				&.first {
-					padding: 0 ($gutter * 1 * 0.5) 0 0;
-				}
-			}
-		}
-
-		> .actions {
-			margin: ($gutter * 1.25) 0 0 0 !important;
-		}
-
-		@include breakpoint(small) {
-			.field {
-				margin: 0 0 ($gutter * 0.75) 0;
-
-				&.half {
-					padding: 0 0 0 ($gutter * 0.75 * 0.5);
-
-					&.first {
-						padding: 0 ($gutter * 0.75 * 0.5) 0 0;
-					}
-				}
-			}
-
-			> .actions {
-				margin: ($gutter * 1) 0 0 0 !important;
-			}
-		}
-
-		@include breakpoint(xsmall) {
-			.field {
-				&.half {
-					width: 100%;
-					float: none;
-					padding: 0;
-
-					&.first {
-						padding: 0;
-					}
-				}
-			}
-		}
-	}
-
 	label {
 		color: _palette(fg-bold);
 		display: block;
@@ -69,7 +13,7 @@
 		font-weight: _font(weight);
 		letter-spacing: _font(letter-spacing);
 		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 0 0 0;
 		text-transform: uppercase;
 	}
 
@@ -91,9 +35,7 @@
 		color: inherit;
 		display: block;
 		outline: 0;
-		padding: 0 1rem;
 		text-decoration: none;
-		width: 100%;
 
 		&:invalid {
 			box-shadow: none;
@@ -121,7 +63,6 @@
 		&:before {
 			color: _palette(border);
 			content: '\f107';
-			display: block;
 			height: _size(element-height);
 			//line-height: _size(element-height);
 			line-height: calc(#{_size(element-height)} + 0em);
@@ -150,7 +91,6 @@
 	}
 
 	input[type="radio"] {
-		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
 		margin-right: -2rem;
@@ -226,27 +166,4 @@
 		}
 	}
 
-	::-webkit-input-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	:-moz-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	::-moz-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	:-ms-input-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
-
-	.formerize-placeholder {
-		color: _palette(fg-light) !important;
-		opacity: 1.0;
-	}
+	

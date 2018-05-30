@@ -24,6 +24,16 @@ class Main extends React.Component {
 
           <p>The purpose of the <strong>Stop KM Legal Defence Fund</strong> is to hold collect and distribute funds raised to support legal defence costs stemming from protest, civil disobedience, and direct action activities in opposition to the Kinder Morgan Trans Mountain pipeline expansion and tanker project. These costs include legal fees for criminal and contempt of court charges, civil litigation, and related immigration or child custody/welfare issues as well as travel costs and other associated legal defence expenses.
           </p>
+          <h2 className="major">Board</h2>
+<h3>Harjap Grewal</h3>
+<h3>Irina Ceric</h3>
+<h3>June McCue</h3>
+<h3>Peter McCartney</h3>
+<h3>Rita Wong</h3>
+<h3>Stephen Collis</h3>
+<h4>* Professional accountant specializing in non-profit organizations, Mairanne Boz, has agreed to set the Fund's financial systems up to ensure transparency and diligent independent monitoring of all monies associated with the Fund</h4>
+    <h4><a href="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/files/Draft_Legal_Defense_Board_Policy_Agreement.pdf">DRAFT STOP KINDER MORGAN LEGAL DEFENCE FUND 
+    BOARD POLICY AGREEMENT [PDF]</a></h4> 
           {close}
         </article>
 

@@ -62,7 +62,7 @@ Privacy.propTypes = {
 export default Privacy
 
 export const pageQuery = graphql`
-  query newPageQuery {
+  query privacyQuery {
     site {
       siteMetadata {
         title

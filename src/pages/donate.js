@@ -59,7 +59,7 @@ Donate.propTypes = {
 export default Donate
 
 export const pageQuery = graphql`
-  query NewPageQuery {
+  query donateQuery {
     site {
       siteMetadata {
         title
