@@ -28,8 +28,9 @@ class ApplicationReceived extends React.Component {
               <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' />
               <script src='https://actionnetwork.org/widgets/v3/form/application-for-financial-assistance?format=js&source=widget'></script>
           </Helmet>
-            <h2>Thank you for your submisison.</h2>
-            <p>We will be in touch about the status of your application soon.</p>
+            <h2>Thank you for your submission.</h2>
+            <p>Your application has been received and we will be in touch about its status.
+            Thank you for your dedication to protecting land and water.</p>
             <Link className="noUnderline" to="/"><i className="fa fa-arrow-left" /> Back</Link>
             <Footer />
         </div>
