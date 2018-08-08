@@ -1,0 +1,28 @@
+#deadline-banner {
+ margin-bottom:2rem;
+ text-align:center;
+ width:100%;
+ color:white;
+ p {
+  margin-bottom:.5em;
+ }
+ a {
+  text-decoration:none;
+  border-bottom:0px;
+ }
+ @include breakpoint(xlarge) {
+  margin-bottom: 1.5rem 2rem;
+ }
+
+ @include breakpoint(small) {
+  margin-bottom: 1rem;
+ }
+
+ @include breakpoint(xsmall) {
+  margin-bottom: .5rem;
+ }
+}
+
+.update {
+ padding-top:1%;
+}
