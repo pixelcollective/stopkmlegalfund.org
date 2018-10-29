@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="update" className={`${this.props.article === 'update' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">FUNDING DEADLINE UPDATE</h2>
-          <p><strong>The next deadline for the StopKM Legal Defense Fund is Sept 30, 2018.</strong></p>
+          <p><strong>The next deadline for the StopKM Legal Defense Fund is  Nov 15, 2018.</strong></p>
           <p>As with the first and second rounds, for this third round, applications can be <a href="/apply">submitted through our online form</a> or sent by email to info@stopkmlegalfund.org.</p>
           <p>The fund has approximately $70,000 in it, and $18,000 has been allocated to applicants in the first round. Fundraising efforts continue.</p>
           <p>Emergency funds may be available and applications would be assessed on a case by case basis. To expedite an application in crisis situations, contact Kris Hermes or the Board at stopkmemergencyapplications@gmail.com.</p>
