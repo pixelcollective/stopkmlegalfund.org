@@ -15,10 +15,10 @@ class Main extends React.Component {
 
         <article id="update" className={`${this.props.article === 'update' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">FUNDING DEADLINE UPDATE</h2>
-          <p><strong>The next deadline for the StopKM Legal Defense Fund is  Nov 15, 2018.</strong></p>
-          <p>As with the first and second rounds, for this third round, applications can be <a href="/apply">submitted through our online form</a> or sent by email to info@stopkmlegalfund.org.</p>
-          <p>The fund has approximately $70,000 in it, and $18,000 has been allocated to applicants in the first round. Fundraising efforts continue.</p>
-          <p>Emergency funds may be available and applications would be assessed on a case by case basis. To expedite an application in crisis situations, contact Kris Hermes or the Board at stopkmemergencyapplications@gmail.com.</p>
+          <p><strong>The next deadline for the StopKM Legal Defense Fund is  March 10, 2019.</strong></p>
+          <p>As with earlier rounds, applications can be <a href="/apply">submitted through our online form</a> or sent by email to <a href="info@stopkmlegalfund.org">info@stopkmlegalfund.org</a>.</p>
+          <p>The fund has approximately $50,000 in it. Fundraising efforts continue.</p>
+          <p>Emergency funds may be available and applications are assessed on a case by case basis. To expedite an application in crisis situations, contact Kris Hermes or the Board at <a href="mailto:stopkmemergencyapplications@gmail.com">stopkmemergencyapplications@gmail.com</a>.</p>
           <p>We voice our deep gratitude and appreciation for all the efforts of the water and land protectors. We could not protect these waters and lands without the generous support of our donors: <strong>THANK YOU!</strong></p>
           {close}
         </article>
@@ -41,7 +41,7 @@ class Main extends React.Component {
           <h3>Stephen Collis</h3>
           <h3>Cecilia Point</h3>
           <h4>* Professional accountant specializing in non-profit organizations, Mairanne Boz, has agreed to set the Fund's financial systems up to ensure transparency and diligent independent monitoring of all monies associated with the Fund</h4>
-          <h4><a href="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/files/draft-board-policy-agreement.pdf">DRAFT STOP KINDER MORGAN LEGAL DEFENCE FUND BOARD POLICY AGREEMENT [PDF]</a></h4> 
+          <h4><a href="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/files/draft-board-policy-agreement.pdf">DRAFT STOP KINDER MORGAN LEGAL DEFENCE FUND BOARD POLICY AGREEMENT [PDF]</a></h4>
           {close}
         </article>
 
