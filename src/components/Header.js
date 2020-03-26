@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 const Header = (props) => (
     <div>
         <div id="deadline-banner" className="highlighted">
-            <p><strong>Update:</strong> The next deadline for the StopKM Legal Defense Fund is March 10, 2019.</p>
+            <p><strong>Update:</strong> We're not currently accepting new applications as we need to replenish the fund.</p>
             <button href="javascript:;" onClick={() => {props.onOpenArticle('update')}}>Learn more &rarr;</button>
         </div>
         <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -14,7 +14,7 @@ const Header = (props) => (
             <div className="content">
                 <div className="inner">
                     <h1>Stop KM Legal Defence Fund</h1>
-                    <p>Raising funds to cover legal defence costs stemming from civil disobedience in opposition to the Kinder Morgan Trans Mountain pipeline expansion.</p>
+                    <p>Raising funds to cover legal defence costs stemming from civil disobedience in opposition to the Trans Mountain pipeline expansion.</p>
                 </div>
             </div>
             <nav>

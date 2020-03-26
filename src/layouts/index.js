@@ -85,7 +85,7 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       content = (
-        <div id="wrapper">   
+        <div id="wrapper">
           <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
           <Main
             isArticleVisible={this.state.isArticleVisible}
@@ -117,10 +117,10 @@ class Template extends React.Component {
         <Helmet>
             <title>{siteTitle}</title>
             <meta name="description" content={siteDescription} />
-            <meta property="og:type"          content="article" />
-            <meta property="og:title"         content="Contribute to the Stop KM Legal Fund" />
-            <meta property="og:description"        content="Support the legal defence costs stemming from protest, civil disobedience, and direct action activities in opposition to Kinder Morgan" />
-            <meta property="og:image"              content="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/static/feather.d671d4bf.jpg" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="Contribute to the Stop KM Legal Fund" />
+            <meta property="og:description" content="Support the legal defence costs stemming from protest, civil disobedience, and direct action activities in opposition to Kinder Morgan" />
+            <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/stopkmlegaldefencefund/static/feather.d671d4bf.jpg" />
         </Helmet>
         {content}
         <div id="bg"></div>

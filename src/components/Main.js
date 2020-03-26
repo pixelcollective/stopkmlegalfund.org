@@ -15,11 +15,11 @@ class Main extends React.Component {
 
         <article id="update" className={`${this.props.article === 'update' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">FUNDING DEADLINE UPDATE</h2>
-          <p><strong>The next deadline for the StopKM Legal Defense Fund is  March 10, 2019.</strong></p>
-          <p>As with earlier rounds, applications can be <a href="/apply">submitted through our online form</a> or sent by email to <a href="info@stopkmlegalfund.org">info@stopkmlegalfund.org</a>.</p>
-          <p>The fund has approximately $50,000 in it. Fundraising efforts continue.</p>
-          <p>Emergency funds may be available and applications are assessed on a case by case basis. To expedite an application in crisis situations, contact Kris Hermes or the Board at <a href="mailto:stopkmemergencyapplications@gmail.com">stopkmemergencyapplications@gmail.com</a>.</p>
-          <p>We voice our deep gratitude and appreciation for all the efforts of the water and land protectors. We could not protect these waters and lands without the generous support of our donors: <strong>THANK YOU!</strong></p>
+          <p><strong>We're not currently accepting new application but stay tuned.</strong></p>
+          <p>When we open the application process again, they can be submitted through our online form or sent by email to <a href="mailto:info@stopkmlegalfund.org">info@stopkmlegalfund.org</a>.</p>
+          <p>Arrests have slowed for now but new applications involve Indigenous land defenders and cases are getting more expensive. We need to raise $10,000 to cover current legal costs and much more to prepare for another round of arrests as construction gets underway. Please give generously to support the efforts of land and water protectors!</p>
+          <p>Emergency funds may still be available and applications are assessed on a case by case basis. To expedite an application in crisis situations, contact us at <a href="mailto:info@stopkmlegalfund.org">info@stopkmlegalfund.org</a>.</p>
+          <p>We could not support people in stopping Trans Mountain without the generous support of our donors: <strong>THANK YOU!</strong></p>
           {close}
         </article>
 
