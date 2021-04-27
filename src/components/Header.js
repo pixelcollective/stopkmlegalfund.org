@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 const Header = (props) => (
     <div>
         <div id="deadline-banner" className="highlighted">
-            <p><strong>Update:</strong> We're not currently accepting new applications as we need to replenish the fund.</p>
+            <p><strong>Update:</strong> We will review applications on an ongoing basis as necessary. Please apply below.</p>
             <button href="javascript:;" onClick={() => {props.onOpenArticle('update')}}>Learn more &rarr;</button>
         </div>
         <header id="header" style={props.timeout ? {display: 'none'} : {}}>
