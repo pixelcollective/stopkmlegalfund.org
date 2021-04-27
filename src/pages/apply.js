@@ -49,7 +49,6 @@ associated with legal defence.</p>
 <p>This application will be reviewed by the Stop KM Legal Defence Fund Operational Committee and approved by
 Stop KM Legal Defence Fund Board. Applications are accepted online at https://stopkmlegalfund.org/ or at the
 email address info@stopkmlegalfund.org.</p>
-<p><strong> The next deadline for the StopKM Legal Defense Fund is March 10, 2019.</strong> Decisions will be made by the end of June. Future rounds of funding will also occur, pending availability of funds.</p>
 <p><a className='button' href='https://file-tbiggngbrc.now.sh/'>Download: Application in PDF format</a></p>
 <p>While being reviewed, all applicants will remain anonymous. All identifying information provided will be unavailable
 to the reviewers in order to protect the confidentiality of the applicants. Once submitted, all application forms will
