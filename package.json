@@ -1,8 +1,30 @@
 {
-  "name": "gatsby-starter-dimension",
-  "description": "Gatsby Starter - Dimension by HTML5 UP",
+  "name": "stopkmlegalfund",
+  "private": true,
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelcollective/stopkmlegalfund.git"
+  },
+  "description": "https://stopkmlegalfund.org",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "volta": {
+    "node": "10.18.0"
+  },
+  "contributors": [
+    {
+      "name": "Hunter Chang"
+    },
+    {
+      "name": "Kelly Mears",
+      "url": "https://github.com/kellymears"
+    },
+    {
+      "name": "gelatin123",
+      "url": "https://github.com/gelatin123"
+    }
+  ],
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-link": "^1.6.39",
@@ -18,16 +40,10 @@
     "gatsby-transformer-sharp": "^1.6.22",
     "lodash": "^4.17.4"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "homepage": "https://github.com/pixelcollective/stopkmlegalfund",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
-  },
   "scripts": {
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
